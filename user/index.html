@@ -3,38 +3,89 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cửa Hàng Sản Phẩm</title>
+  <title>DPCUES - Tất Cả Mọi Thứ Về Bi-a</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-gray-50 min-h-screen">
-  <header class="bg-white shadow-sm sticky top-0 z-50">
-    <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
-      <h1 class="text-3xl font-bold text-gray-800 flex items-center gap-2">
-        🛒 Cửa Hàng
-      </h1>
-      <nav>
-        <a href="index.html" class="text-blue-600 hover:text-blue-700 font-medium">Trang chủ</a>
+<body class="bg-gray-50 flex flex-col min-h-screen">
+  <!-- HEADER -->
+  <header class="bg-black text-white">
+    <div class="max-w-7xl mx-auto">
+      <div class="flex justify-between items-center px-6 py-4">
+        <div class="flex items-center gap-3">
+          <h1 class="text-4xl font-black tracking-tighter">DPCUES</h1>
+          <p class="text-sm leading-tight">
+            Tất cả mọi thứ<br>về bi-a
+          </p>
+        </div>
+
+        <!-- Search -->
+        <div class="flex-1 max-w-2xl mx-8">
+          <div class="relative">
+            <input 
+              type="text" 
+              id="search-input"
+              placeholder="Tìm sản phẩm..." 
+              class="w-full bg-white text-black px-6 py-4 rounded-full text-lg focus:outline-none">
+            <button class="absolute right-4 top-1/2 -translate-y-1/2 bg-emerald-600 text-white px-8 py-2.5 rounded-full font-medium">
+              🔍
+            </button>
+          </div>
+        </div>
+
+        <a href="../admin/index.html" class="bg-emerald-600 hover:bg-emerald-700 px-6 py-3 rounded-xl font-medium">
+          👨‍💼 Admin
+        </a>
+      </div>
+
+      <!-- NAVIGATION - ĐÃ CÓ "Danh mục sản phẩm" -->
+      <nav class="bg-[#0f172a] py-4 border-t border-gray-700">
+        <div class="max-w-7xl mx-auto px-6 flex items-center gap-8 text-base font-medium">
+          <a href="#" class="flex items-center gap-2 hover:text-emerald-400 transition">
+            📋 Danh mục sản phẩm
+          </a>
+          <a href="#" class="hover:text-emerald-400 transition">Gậy Bi A</a>
+          <a href="#" class="hover:text-emerald-400 transition">Găng Tay</a>
+          <a href="#" class="hover:text-emerald-400 transition">Lơ</a>
+          <a href="#" class="hover:text-emerald-400 transition">Bao Đựng Cơ</a>
+        </div>
       </nav>
     </div>
   </header>
 
-  <main class="max-w-7xl mx-auto px-6 py-8">
-    <!-- Search -->
-    <div class="mb-8">
-      <input 
-        type="text" 
-        id="search-input"
-        placeholder="🔍 Tìm kiếm sản phẩm..." 
-        class="w-full max-w-md px-5 py-3 border border-gray-300 rounded-2xl focus:outline-none focus:border-blue-500 text-lg">
+  <!-- BANNER BILLARD -->
+  <div class="bg-white">
+    <img src="https://img.freepik.com/free-photo/closeup-billiard-balls-sticks-table_181624-58877.jpg?semt=ais_incoming&w=740&q=80" 
+         alt="Phụ kiện Billiard DPCUES" 
+         class="w-full h-[420px] object-cover">
+  </div>
+
+  <main class="flex-1 max-w-7xl mx-auto px-6 py-12">
+    <!-- Top Sản Phẩm Bán Chạy -->
+    <div class="mb-16">
+      <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+        🔥 Top Sản Phẩm Bán Chạy
+      </h2>
+      <div id="top-selling" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6"></div>
     </div>
 
-    <!-- Product Grid -->
-    <div id="product-grid" 
-         class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-      <!-- Sẽ được JS render vào đây -->
+    <!-- Tất Cả Sản Phẩm -->
+    <div>
+      <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+        📦 Tất Cả Sản Phẩm
+      </h2>
+      <div id="product-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"></div>
     </div>
   </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-900 text-gray-400 mt-auto">
+    <div class="max-w-7xl mx-auto px-6 py-12 text-center">
+      <p class="text-xl font-bold text-white mb-2">DPCUES</p>
+      <p>Chuyên cung cấp phụ kiện billiard chính hãng</p>
+      <p class="text-sm mt-6">© 2026 DPCUES - All Rights Reserved</p>
+    </div>
+  </footer>
 
   <script src="script.js"></script>
 </body>
