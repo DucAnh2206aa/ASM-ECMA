@@ -1,88 +1,82 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Gậy Bi A Peri Titan Limited",
       "category": "Gậy Bi A",
       "price": 12500000,
       "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/357/267/products/dsc08547.jpg?v=1764818828183"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Gậy Pool Predator BK Rush",
       "category": "Gậy Bi A",
       "price": 18500000,
       "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/357/267/products/dsc08547.jpg?v=1764818828183"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Găng Tay Predator Revo",
       "category": "Găng Tay",
       "price": 850000,
       "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/357/267/products/gangvi-tnam1new-copy.jpg?v=1760848653403"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Găng Tay Kamui Black",
       "category": "Găng Tay",
       "price": 650000,
       "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/357/267/products/gangvi-tnam1new-copy.jpg?v=1760848653403"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Lơ Kamui 1.0",
       "category": "Lơ",
       "price": 450000,
       "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/357/267/products/z5082517806591-d19d9be3f0c020612081a6ca9d096948.jpg?v=1720601780853"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Lơ Taom Soft",
       "category": "Lơ",
       "price": 380000,
       "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/357/267/products/z5082517806591-d19d9be3f0c020612081a6ca9d096948.jpg?v=1720601780853"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Bao Cơ Predator 2x2",
       "category": "Bao Đựng Cơ",
       "price": 2450000,
       "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/357/267/products/25-pre-roadline-blk-gld-30th-3x5-h-case-front-straps-1920x1080.jpg?v=1761809568563"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Bao Cơ Peri 3x5",
       "category": "Bao Đựng Cơ",
       "price": 3200000,
       "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/357/267/products/25-pre-roadline-blk-gld-30th-3x5-h-case-front-straps-1920x1080.jpg?v=1761809568563"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Gậy Bi A Mezz Power Break",
       "category": "Gậy Bi A",
       "price": 14800000,
       "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/357/267/products/dsc08547.jpg?v=1764818828183"
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Găng Tay Tiger Premium",
       "category": "Găng Tay",
       "price": 750000,
       "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/357/267/products/gangvi-tnam1new-copy.jpg?v=1760848653403"
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Lơ Molinari",
       "category": "Lơ",
       "price": 520000,
       "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/357/267/products/z5082517806591-d19d9be3f0c020612081a6ca9d096948.jpg?v=1720601780853"
-    },
-    {
-      "id": 12,
-      "name": "Bao Cơ Predator 4x8",
-      "category": "Bao Đựng Cơ",
-      "price": 4500000,
-      "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/357/267/products/25-pre-roadline-blk-gld-30th-3x5-h-case-front-straps-1920x1080.jpg?v=1761809568563"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

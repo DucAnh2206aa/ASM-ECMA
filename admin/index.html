@@ -2,27 +2,45 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Admin - Quản lý Sản phẩm</title>
+  <title>Admin - Quản lý sản phẩm</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="style.css">
 </head>
+
 <body class="bg-gray-100">
+
   <div class="max-w-7xl mx-auto p-6">
-    <h1 class="text-3xl font-bold mb-8 text-center">🛠️ Admin - Quản lý Sản phẩm</h1>
-    
-    <!-- Form -->
-    <div id="form-section" class="bg-white p-6 rounded-xl shadow mb-8"></div>
-    
-    <!-- Search -->
-    <div class="mb-6">
-      <input type="text" id="search-input" 
-             placeholder="Tìm theo tên sản phẩm..." 
-             class="w-full px-4 py-3 border rounded-lg focus:outline-none focus:border-blue-500">
+
+    <!-- Header -->
+    <div class="flex justify-between items-center mb-6">
+      <h1 class="text-2xl font-bold">📦 Quản lý sản phẩm</h1>
+      
+      <a href="form.html" 
+        class="bg-emerald-600 text-white px-4 py-2 rounded">
+        ➕ Thêm sản phẩm
+      </a>
+    </div>
+
+    <!-- Loading -->
+    <div id="loading" class="text-center py-10 hidden">
+      ⏳ Đang tải...
     </div>
 
     <!-- Table -->
-    <div id="product-list" class="bg-white rounded-xl shadow overflow-hidden"></div>
+    <div class="bg-white rounded-xl shadow overflow-hidden">
+      <table class="w-full">
+        <thead class="bg-gray-200">
+          <tr>
+            <th class="p-3 text-left">ID</th>
+            <th class="p-3 text-left">Ảnh</th>
+            <th class="p-3 text-left">Tên</th>
+            <th class="p-3 text-left">Giá</th>
+            <th class="p-3 text-left">Hành động</th>
+          </tr>
+        </thead>
+        <tbody id="product-table"></tbody>
+      </table>
+    </div>
+
   </div>
 
   <script src="script.js"></script>
