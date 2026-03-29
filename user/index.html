@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cửa Hàng Sản Phẩm</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50 min-h-screen">
+  <header class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+      <h1 class="text-3xl font-bold text-gray-800 flex items-center gap-2">
+        🛒 Cửa Hàng
+      </h1>
+      <nav>
+        <a href="index.html" class="text-blue-600 hover:text-blue-700 font-medium">Trang chủ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-6 py-8">
+    <!-- Search -->
+    <div class="mb-8">
+      <input 
+        type="text" 
+        id="search-input"
+        placeholder="🔍 Tìm kiếm sản phẩm..." 
+        class="w-full max-w-md px-5 py-3 border border-gray-300 rounded-2xl focus:outline-none focus:border-blue-500 text-lg">
+    </div>
+
+    <!-- Product Grid -->
+    <div id="product-grid" 
+         class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <!-- Sẽ được JS render vào đây -->
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
