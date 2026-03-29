@@ -2,10 +2,11 @@
   "products": [
     {
       "id": "1",
-      "name": "Gậy Bi A Peri Titan Limited",
+      "name": "Gậy Bi A Peri Titan update",
       "category": "Gậy Bi A",
       "price": 12500000,
-      "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/357/267/products/dsc08547.jpg?v=1764818828183"
+      "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/357/267/products/dsc08547.jpg?v=1764818828183",
+      "description": "gậy bi a chính hãng"
     },
     {
       "id": "2",
@@ -72,10 +73,19 @@
     },
     {
       "id": "11",
-      "name": "Lơ Molinari",
+      "name": "Lơ Molinari update",
       "category": "Lơ",
       "price": 520000,
-      "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/357/267/products/z5082517806591-d19d9be3f0c020612081a6ca9d096948.jpg?v=1720601780853"
+      "image": "https://bizweb.dktcdn.net/thumb/1024x1024/100/357/267/products/z5082517806591-d19d9be3f0c020612081a6ca9d096948.jpg?v=1720601780853",
+      "description": "update"
+    },
+    {
+      "id": "12",
+      "name": "Lơ Taom",
+      "category": "Lơ",
+      "price": 500000,
+      "image": "https://picsum.photos/id/20/600/400",
+      "description": "lơ taom chính hãng"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
